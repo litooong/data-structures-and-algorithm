@@ -8,8 +8,11 @@
     <artifactId>data-structures-and-algorithm</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>leetcode</module>
         <module>leetCode</module>
+        <module>black-book-3rd</module>
+        <module>algorithm-4rd</module>
+        <module>black-book-3rd</module>
+        <module>design-pattern</module>
     </modules>
     <packaging>pom</packaging>
 
