@@ -13,6 +13,7 @@
         <module>algorithm-4rd</module>
         <module>black-book-3rd</module>
         <module>design-pattern</module>
+        <module>on-java-8</module>
     </modules>
     <packaging>pom</packaging>
 

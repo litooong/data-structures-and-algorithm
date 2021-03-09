@@ -10,12 +10,16 @@ import java.util.Map;
  */
 public class TwoSum {
 
+    public static void main(String[] args) {
+
+    }
+
     /**
      * 解法2：借助HashMap
      * 时间复杂度：O(n)
      */
     public static int[] twoSum2(int[] arr, int target) {
-        Map<Integer,Integer> tempMap = new HashMap<>();
+        Map<Integer, Integer> tempMap = new HashMap<>();
         for (int i = 0; i < arr.length; i++) {
             int sub = target - arr[i];
             if (tempMap.containsKey(sub)) {
@@ -25,6 +29,7 @@ public class TwoSum {
         }
         throw new IllegalArgumentException("No two sum solution");
     }
+
     /**
      * 解法1：简单粗暴，两层for循环遍历所有情况
      * 时间复杂度：O(n^2)
