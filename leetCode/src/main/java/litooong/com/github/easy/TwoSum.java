@@ -11,7 +11,7 @@ import java.util.Map;
 public class TwoSum {
 
     public static void main(String[] args) {
-
+	
     }
 
     /**
@@ -31,7 +31,7 @@ public class TwoSum {
     }
 
     /**
-     * 解法1：简单粗暴，两层for循环遍历所有情况
+     * 解法1：两层for循环遍历所有情况
      * 时间复杂度：O(n^2)
      */
     public static int[] twoSum1(int[] arr, int target) {
