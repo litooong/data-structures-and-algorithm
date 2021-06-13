@@ -11,7 +11,28 @@ import java.util.Map;
 public class TwoSum {
 
     public static void main(String[] args) {
-	
+
+    }
+
+    /**
+     * 解法3：对撞双指针(（仅限于排好序的数组）
+     * 时间复杂度：O(n)
+     * [1, 4, 5, 7, 9]
+     * i           j
+     */
+    public static int[] twoSum3(int[] arr, int target) {
+        int min = 0;
+        int max = arr.length - 1;
+        while (max > min) {
+            if (arr[min] + arr[max] > target) {
+                max -= 1;
+            } else if (arr[min] + arr[max] < target) {
+                min += 1;
+            } else {
+                return new int[]{min, max};
+            }
+        }
+        throw new IllegalArgumentException("No two sum solution");
     }
 
     /**
