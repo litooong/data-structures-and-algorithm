@@ -16,11 +16,10 @@
     </dependencies>
     <modules>
         <module>leetCode</module>
-        <module>black-book-3rd</module>
-        <module>algorithm-4rd</module>
-        <module>black-book-3rd</module>
         <module>design-pattern</module>
         <module>on-java-8</module>
+        <module>algorithm-4-edition</module>
+        <module>data-structures-and-algorithm-analysis-in-java</module>
     </modules>
     <packaging>pom</packaging>
 
