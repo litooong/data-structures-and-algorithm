@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>asaaaij</artifactId>
+    <artifactId>data-structures-and-algorithm-analysis-in-java</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

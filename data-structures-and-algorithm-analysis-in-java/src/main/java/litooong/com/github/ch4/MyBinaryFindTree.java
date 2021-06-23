@@ -116,13 +116,16 @@ public class MyBinaryFindTree<T extends Comparable<? super T>> {
         }
         int compareResult = data.compareTo(node.element);
         if (compareResult < 0) {
-            remove(data, node.left);
+            node.left = remove(data, node.left);
         } else if (compareResult > 0) {
-            remove(data, node.right);
+            node.right = remove(data, node.right);
+        } else if (node.left != null && node.right != null){
+            node.element = findMin(node.right).element;
+            node.right = remove(node.element, node.right);
         } else {
-
+            node = (node.left != null) ? node.left : node.right;
         }
-        return null;
+        return node;
     }
 
     private void printTree(BinaryNode<T> node) {
