@@ -22,7 +22,7 @@ public class FindMaxConsecutiveOnes {
                 count = 0;
             }
             // 每次遍历后都更新 max 值
-            max = max < count ? count : max;
+            max = Math.max(max, count);
         }
         return max;
     }

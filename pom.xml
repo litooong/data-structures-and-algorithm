@@ -21,7 +21,11 @@
         <module>algorithm-4-edition</module>
         <module>data-structures-and-algorithm-analysis-in-java</module>
     </modules>
+
     <packaging>pom</packaging>
 
-
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
 </project>
